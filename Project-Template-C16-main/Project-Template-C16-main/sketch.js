@@ -60,8 +60,8 @@ function draw() {
     if(fruitGroup.isTouching(knife)){
       fruitGroup.destroyEach();
       
-      // knifeSwooshSound.play();
-       knifeSwooshSound.play;
+       knifeSwooshSound.play();
+      // knifeSwooshSound.play;
       // knifeSwooshSound();
       // knifeSwooshSoundplay();
 
@@ -119,9 +119,9 @@ function fruits(){
     fruit.x = 0    
   //Increase the velocity of fruit after score 4 
 
-      // fruit.velocityX= (7+(score/4));
+       fruit.velocityX= (7+(score/4));
       // fruit.velocityY= (7+(score));
-       fruit.velocity= (7+(score/4));
+      // fruit.velocity= (7+(score/4));
       // fruit.velocityX= (7);
      
     fruit.scale=0.2;
